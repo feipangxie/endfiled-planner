@@ -1,0 +1,4 @@
+$('feedbackOpen').onclick=()=>$('feedbackDialog').showModal();$('feedbackClose').onclick=()=>$('feedbackDialog').close();
+function feedbackText(){return `收件人：1595144360@qq.com\n主题：${$('feedbackSubject').value}\n\n${$('feedbackBody').value}`}
+$('feedbackEmail').onclick=()=>{const subject=encodeURIComponent($('feedbackSubject').value),body=encodeURIComponent($('feedbackBody').value);window.location.href=`mailto:1595144360@qq.com?subject=${subject}&body=${body}`;$('feedbackStatus').textContent='邮件草稿已请求打开，请在邮件程序中点击发送；若没有打开，请复制到QQ邮箱发送。'};
+$('feedbackCopy').onclick=async()=>{try{await navigator.clipboard.writeText(feedbackText());$('feedbackStatus').textContent='邮箱和反馈内容已复制，可粘贴到QQ邮箱发送。'}catch{$('feedbackStatus').textContent='无法自动复制，请手动复制下方内容。';const t=document.createElement('textarea');t.value=feedbackText();$('feedbackStatus').appendChild(t);t.select()}};
