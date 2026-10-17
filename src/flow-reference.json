@@ -1,0 +1,1758 @@
+{
+  "nodes": [
+    {
+      "id": "o|xiranite_enr_powder",
+      "name": "重息壤",
+      "text": "60/分",
+      "color": "#689f38",
+      "stepId": "22",
+      "href": "data/aef/icons.webp",
+      "posX": "0px",
+      "posY": "-384px",
+      "viewBox": "0 384 64 64"
+    },
+    {
+      "id": "r|phase_trans_2-xiranite_enr_powder",
+      "name": "重息壤(固气转化机)",
+      "text": "5 固气转化机",
+      "color": "#586d59",
+      "stepId": "22",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "phase_trans_2-xiranite_enr_powder",
+        "name": "重息壤(固气转化机)",
+        "category": "material",
+        "row": 7,
+        "time": "10",
+        "producers": [
+          "phase_trans_2"
+        ],
+        "in": {
+          "gas_xiranite_enr": "5",
+          "gas_xiranite": "1"
+        },
+        "out": {
+          "xiranite_enr_powder": "2"
+        },
+        "icon": "o7qlvjIpX",
+        "flags": {}
+      },
+      "posX": "-640px",
+      "posY": "-960px",
+      "viewBox": "640 960 64 64"
+    },
+    {
+      "id": "r|gas_xiranite_enr-gas_inert",
+      "name": "重息壤气(惰气)",
+      "text": "5 提纯机",
+      "color": "#a2c5ae",
+      "stepId": "25",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "gas_xiranite_enr-gas_inert",
+        "name": "重息壤气(惰气)",
+        "category": "material",
+        "row": 8,
+        "time": "2",
+        "producers": [
+          "liquid_purifier_1"
+        ],
+        "in": {
+          "gas_xiranite": "2",
+          "filter_core": "1"
+        },
+        "out": {
+          "gas_xiranite_enr": "1"
+        },
+        "icon": "4N6PISlNQ",
+        "flags": {}
+      },
+      "posX": "-64px",
+      "posY": "-768px",
+      "viewBox": "64 768 64 64"
+    },
+    {
+      "id": "o|copper_enr2_cmpt",
+      "name": "灼铜零件",
+      "text": "1/分",
+      "color": "#689f38",
+      "stepId": "26",
+      "href": "data/aef/icons.webp",
+      "posX": "-576px",
+      "posY": "-64px",
+      "viewBox": "576 64 64 64"
+    },
+    {
+      "id": "r|copper_enr2_cmpt",
+      "name": "灼铜零件",
+      "text": "0.2 配件机",
+      "color": "#ac7162",
+      "stepId": "26",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "copper_enr2_cmpt",
+        "name": "灼铜零件",
+        "category": "material",
+        "row": 5,
+        "time": "10",
+        "producers": [
+          "cmpt_mc_1"
+        ],
+        "in": {
+          "copper_enr2": "5"
+        },
+        "out": {
+          "copper_enr2_cmpt": "1"
+        },
+        "icon": "copper_enr2_cmpt",
+        "flags": {}
+      },
+      "posX": "-576px",
+      "posY": "-64px",
+      "viewBox": "576 64 64 64"
+    },
+    {
+      "id": "r|phase_trans_2-copper_enr2",
+      "name": "灼铜块(固气转化机)",
+      "text": "0.2 固气转化机",
+      "color": "#ca9b84",
+      "stepId": "27",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "phase_trans_2-copper_enr2",
+        "name": "灼铜块(固气转化机)",
+        "category": "material",
+        "row": 5,
+        "time": "2",
+        "producers": [
+          "phase_trans_2"
+        ],
+        "in": {
+          "gas_copper_enr2": "1",
+          "gas_xiranite": "0.2"
+        },
+        "out": {
+          "copper_enr2": "1"
+        },
+        "icon": "grKjDDYLU",
+        "flags": {}
+      },
+      "posX": "-960px",
+      "posY": "-640px",
+      "viewBox": "960 640 64 64"
+    },
+    {
+      "id": "r|gas_copper_enr2",
+      "name": "气态灼铜",
+      "text": "0.2 气体反应炉",
+      "color": "#dda678",
+      "stepId": "28",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "gas_copper_enr2",
+        "name": "气态灼铜",
+        "category": "material",
+        "row": 6,
+        "time": "2",
+        "producers": [
+          "gas_reactor_1"
+        ],
+        "in": {
+          "gas_copper_enr": "2",
+          "gas_xiranite": "1"
+        },
+        "out": {
+          "gas_copper_enr2": "1"
+        },
+        "icon": "ynGeJZzIH",
+        "flags": {}
+      },
+      "posX": "-768px",
+      "posY": "-704px",
+      "viewBox": "768 704 64 64"
+    },
+    {
+      "id": "r|gas_copper_enr-gas_inert",
+      "name": "气态赫铜(惰气)",
+      "text": "0.2 提纯机",
+      "color": "#b8bdca",
+      "stepId": "18",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "gas_copper_enr-gas_inert",
+        "name": "气态赫铜(惰气)",
+        "category": "material",
+        "row": 6,
+        "time": "2",
+        "producers": [
+          "liquid_purifier_1"
+        ],
+        "in": {
+          "gas_copper": "2",
+          "filter_core": "1"
+        },
+        "out": {
+          "gas_copper_enr": "2"
+        },
+        "icon": "LESvbc0cp",
+        "flags": {}
+      },
+      "posX": "-576px",
+      "posY": "-704px",
+      "viewBox": "576 704 64 64"
+    },
+    {
+      "id": "r|phase_trans_2-gas_copper",
+      "name": "气态赤铜(固气转化机)",
+      "text": "0.4 固气转化机",
+      "color": "#b69991",
+      "stepId": "15",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "phase_trans_2-gas_copper",
+        "name": "气态赤铜(固气转化机)",
+        "category": "material",
+        "row": 6,
+        "time": "2",
+        "producers": [
+          "phase_trans_2"
+        ],
+        "in": {
+          "copper_nugget": "2",
+          "gas_xiranite": "0.2"
+        },
+        "out": {
+          "gas_copper": "1"
+        },
+        "icon": "MzFhhwu9q",
+        "flags": {}
+      },
+      "posX": "-960px",
+      "posY": "-704px",
+      "viewBox": "960 704 64 64"
+    },
+    {
+      "id": "o|proc_battery_5",
+      "name": "中容武陵电池",
+      "text": "6/分",
+      "color": "#689f38",
+      "stepId": "29",
+      "href": "data/aef/icons.webp",
+      "posX": "-576px",
+      "posY": "-448px",
+      "viewBox": "576 448 64 64"
+    },
+    {
+      "id": "r|proc_battery_5",
+      "name": "中容武陵电池",
+      "text": "1 封装机",
+      "color": "#5d6956",
+      "stepId": "29",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "proc_battery_5",
+        "name": "中容武陵电池",
+        "category": "product",
+        "row": 3,
+        "time": "10",
+        "producers": [
+          "tools_asm_mc_1"
+        ],
+        "in": {
+          "xiranite_poly": "5",
+          "originium_enr_powder": "20"
+        },
+        "out": {
+          "proc_battery_5": "1"
+        },
+        "icon": "proc_battery_5",
+        "flags": {}
+      },
+      "posX": "-576px",
+      "posY": "-448px",
+      "viewBox": "576 448 64 64"
+    },
+    {
+      "id": "r|xiranite_poly",
+      "name": "壤晶",
+      "text": "1 反应池",
+      "color": "#39413e",
+      "stepId": "30",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "xiranite_poly",
+        "name": "壤晶",
+        "category": "material",
+        "row": 7,
+        "time": "2",
+        "producers": [
+          "mix_pool_1",
+          "mix_pool_2"
+        ],
+        "in": {
+          "liquid_xiranite_poly": "2",
+          "iron_powder": "1"
+        },
+        "out": {
+          "xiranite_poly": "1",
+          "liquid_sewage": "1"
+        },
+        "icon": "xiranite_poly",
+        "flags": {}
+      },
+      "posX": "-64px",
+      "posY": "-384px",
+      "viewBox": "64 384 64 64"
+    },
+    {
+      "id": "i|liquid_xiranite_poly",
+      "name": "壤晶废液",
+      "text": "60/分",
+      "color": "#3b6541",
+      "stepId": "21",
+      "href": "data/aef/icons.webp",
+      "posX": "-128px",
+      "posY": "-256px",
+      "viewBox": "128 256 64 64"
+    },
+    {
+      "id": "r|liquid_xiranite_poly",
+      "name": "壤晶废液",
+      "text": "1.5 反应池",
+      "color": "#3b6541",
+      "stepId": "21",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "liquid_xiranite_poly",
+        "name": "壤晶废液",
+        "category": "material",
+        "row": 7,
+        "time": "2",
+        "producers": [
+          "mix_pool_1",
+          "mix_pool_2"
+        ],
+        "in": {
+          "liquid_xiranite": "1",
+          "liquid_sewage": "1"
+        },
+        "out": {
+          "liquid_xiranite_poly": "1",
+          "liquid_xiranite_lowpoly": "1"
+        },
+        "icon": "liquid_xiranite_poly",
+        "flags": {}
+      },
+      "posX": "-128px",
+      "posY": "-256px",
+      "viewBox": "128 256 64 64"
+    },
+    {
+      "id": "r|liquid_xiranite",
+      "name": "液化息壤",
+      "text": "1.5 反应池",
+      "color": "#467867",
+      "stepId": "23",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "liquid_xiranite",
+        "name": "液化息壤",
+        "category": "material",
+        "row": 7,
+        "time": "2",
+        "producers": [
+          "mix_pool_1",
+          "mix_pool_2"
+        ],
+        "in": {
+          "xiranite_powder": "1",
+          "liquid_water": "1"
+        },
+        "out": {
+          "liquid_xiranite": "1"
+        },
+        "icon": "liquid_xiranite",
+        "flags": {}
+      },
+      "posX": "-192px",
+      "posY": "-256px",
+      "viewBox": "192 256 64 64"
+    },
+    {
+      "id": "r|iron_powder",
+      "name": "蓝铁粉末",
+      "text": "1 粉碎机",
+      "color": "#35526b",
+      "stepId": "12",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "iron_powder",
+        "name": "蓝铁粉末",
+        "category": "material",
+        "row": 4,
+        "time": "2",
+        "producers": [
+          "grinder_1"
+        ],
+        "in": {
+          "iron_nugget": "1"
+        },
+        "out": {
+          "iron_powder": "1"
+        },
+        "icon": "iron_powder",
+        "flags": {}
+      },
+      "posX": "-512px",
+      "posY": "-192px",
+      "viewBox": "512 192 64 64"
+    },
+    {
+      "id": "r|iron_nugget-iron_ore",
+      "name": "蓝铁块(蓝铁矿)",
+      "text": "1 精炼炉",
+      "color": "#658299",
+      "stepId": "11",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "iron_nugget-iron_ore",
+        "name": "蓝铁块(蓝铁矿)",
+        "category": "material",
+        "row": 4,
+        "time": "2",
+        "producers": [
+          "furnance_1"
+        ],
+        "in": {
+          "iron_ore": "1"
+        },
+        "out": {
+          "iron_nugget": "1"
+        },
+        "cost": "100",
+        "icon": "YP_fqgPjK",
+        "flags": {}
+      },
+      "posX": "-512px",
+      "posY": "-768px",
+      "viewBox": "512 768 64 64"
+    },
+    {
+      "id": "s|iron_ore",
+      "name": "蓝铁矿",
+      "text": "90/分",
+      "color": "#d32f2f",
+      "stepId": "32",
+      "href": "data/aef/icons.webp",
+      "posX": "-448px",
+      "posY": "-192px",
+      "viewBox": "448 192 64 64"
+    },
+    {
+      "id": "m|iron_ore",
+      "name": "蓝铁矿",
+      "text": "6 二型电驱矿机",
+      "color": "#5a718d",
+      "stepId": "32",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "iron_ore",
+        "name": "蓝铁矿",
+        "category": "material",
+        "row": 4,
+        "time": "3",
+        "producers": [
+          "miner_3"
+        ],
+        "in": {},
+        "out": {
+          "iron_ore": "1"
+        },
+        "icon": "iron_ore",
+        "flags": {}
+      },
+      "posX": "-448px",
+      "posY": "-192px",
+      "viewBox": "448 192 64 64"
+    },
+    {
+      "id": "i|originium_enr_powder",
+      "name": "致密源石粉末",
+      "text": "120/分",
+      "color": "#75522c",
+      "stepId": "3",
+      "href": "data/aef/icons.webp",
+      "posX": "-256px",
+      "posY": "-256px",
+      "viewBox": "256 256 64 64"
+    },
+    {
+      "id": "r|originium_enr_powder",
+      "name": "致密源石粉末",
+      "text": "3.2 研磨机",
+      "color": "#75522c",
+      "stepId": "3",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "originium_enr_powder",
+        "name": "致密源石粉末",
+        "category": "material",
+        "row": 2,
+        "time": "2",
+        "producers": [
+          "thickener_1"
+        ],
+        "in": {
+          "originium_powder": "2",
+          "plant_moss_powder_3": "1"
+        },
+        "out": {
+          "originium_enr_powder": "1"
+        },
+        "icon": "originium_enr_powder",
+        "flags": {}
+      },
+      "posX": "-256px",
+      "posY": "-256px",
+      "viewBox": "256 256 64 64"
+    },
+    {
+      "id": "r|originium_powder",
+      "name": "源石粉末",
+      "text": "6.4 粉碎机",
+      "color": "#4f3c29",
+      "stepId": "1",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "originium_powder",
+        "name": "源石粉末",
+        "category": "material",
+        "row": 2,
+        "time": "2",
+        "producers": [
+          "grinder_1"
+        ],
+        "in": {
+          "originium_ore": "1"
+        },
+        "out": {
+          "originium_powder": "1"
+        },
+        "cost": "100",
+        "icon": "originium_powder",
+        "flags": {}
+      },
+      "posX": "-384px",
+      "posY": "-256px",
+      "viewBox": "384 256 64 64"
+    },
+    {
+      "id": "s|originium_ore",
+      "name": "源矿",
+      "text": "350/分",
+      "color": "#d32f2f",
+      "stepId": "0",
+      "href": "data/aef/icons.webp",
+      "posX": "-320px",
+      "posY": "-256px",
+      "viewBox": "320 256 64 64"
+    },
+    {
+      "id": "m|originium_ore",
+      "name": "源矿",
+      "text": "27 电驱矿机",
+      "color": "#815d3e",
+      "stepId": "0",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "originium_ore",
+        "name": "源矿",
+        "category": "material",
+        "row": 2,
+        "time": "3",
+        "producers": [
+          "miner_2",
+          "miner_3"
+        ],
+        "in": {},
+        "out": {
+          "originium_ore": "1"
+        },
+        "icon": "originium_ore",
+        "flags": {}
+      },
+      "posX": "-320px",
+      "posY": "-256px",
+      "viewBox": "320 256 64 64"
+    },
+    {
+      "id": "r|plant_moss_powder_3",
+      "name": "砂叶粉末",
+      "text": "1.1 粉碎机",
+      "color": "#9e700a",
+      "stepId": "2",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "plant_moss_powder_3",
+        "name": "砂叶粉末",
+        "category": "material",
+        "row": 0,
+        "time": "2",
+        "producers": [
+          "grinder_1"
+        ],
+        "in": {
+          "plant_moss_3": "1"
+        },
+        "out": {
+          "plant_moss_powder_3": "3"
+        },
+        "icon": "plant_moss_powder_3",
+        "flags": {}
+      },
+      "posX": "-448px",
+      "posY": "-320px",
+      "viewBox": "448 320 64 64"
+    },
+    {
+      "id": "r|liquid_xiranite_poly-purifier",
+      "name": "壤晶废液(提纯机)",
+      "text": "0.4 提纯机",
+      "color": "#707d75",
+      "stepId": "36",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "liquid_xiranite_poly-purifier",
+        "name": "壤晶废液(提纯机)",
+        "category": "material",
+        "row": 7,
+        "time": "2",
+        "producers": [
+          "liquid_purifier_1"
+        ],
+        "in": {
+          "liquid_xiranite_lowpoly": "4"
+        },
+        "out": {
+          "liquid_xiranite_poly": "1",
+          "liquid_water": "1"
+        },
+        "icon": "qUq983O5F",
+        "flags": {}
+      },
+      "posX": "-128px",
+      "posY": "-896px",
+      "viewBox": "128 896 64 64"
+    },
+    {
+      "id": "r|filter_core",
+      "name": "分离芯",
+      "text": "2.6 封装机",
+      "color": "#737072",
+      "stepId": "17",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "filter_core",
+        "name": "分离芯",
+        "category": "material",
+        "row": 5,
+        "time": "2",
+        "producers": [
+          "tools_asm_mc_1"
+        ],
+        "in": {
+          "copper_jar": "1",
+          "xiranite_powder": "1"
+        },
+        "out": {
+          "filter_core": "2"
+        },
+        "icon": "filter_core",
+        "flags": {}
+      },
+      "posX": "-192px",
+      "posY": "-128px",
+      "viewBox": "192 128 64 64"
+    },
+    {
+      "id": "r|copper_jar",
+      "name": "赤铜耐压罐",
+      "text": "2.6 塑形机",
+      "color": "#826767",
+      "stepId": "19",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "copper_jar",
+        "name": "赤铜耐压罐",
+        "category": "material",
+        "row": 5,
+        "time": "2",
+        "producers": [
+          "shaper_1"
+        ],
+        "in": {
+          "copper_nugget": "2",
+          "gas_inert": "1"
+        },
+        "out": {
+          "copper_jar": "1"
+        },
+        "icon": "copper_jar",
+        "locations": [
+          "jinlong"
+        ],
+        "flags": {}
+      },
+      "posX": "-704px",
+      "posY": "-64px",
+      "viewBox": "704 64 64 64"
+    },
+    {
+      "id": "s|gas_inert",
+      "name": "惰气",
+      "text": "382.5/分",
+      "color": "#d32f2f",
+      "stepId": "31",
+      "href": "data/aef/icons.webp",
+      "posX": "-512px",
+      "posY": "-128px",
+      "viewBox": "512 128 64 64"
+    },
+    {
+      "id": "m|gas_inert",
+      "name": "惰气",
+      "text": "23 气体收集泵",
+      "color": "#69a6b4",
+      "stepId": "31",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "gas_inert",
+        "name": "惰气",
+        "category": "material",
+        "row": 999,
+        "time": "3",
+        "producers": [
+          "gas_pump_1"
+        ],
+        "in": {},
+        "out": {
+          "gas_inert": "1"
+        },
+        "icon": "gas_inert",
+        "flags": {}
+      },
+      "posX": "-512px",
+      "posY": "-128px",
+      "viewBox": "512 128 64 64"
+    },
+    {
+      "id": "r|sewage-treat-export",
+      "name": "壤晶废液(净水节点)",
+      "text": "0.5 净水节点(产物排出口)",
+      "color": "#697868",
+      "stepId": "38",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "sewage-treat-export",
+        "name": "壤晶废液(净水节点)",
+        "category": "material",
+        "row": 999,
+        "time": "60",
+        "producers": [
+          "liquid_recycle_gate"
+        ],
+        "in": {
+          "liquid_sewage": "360"
+        },
+        "out": {
+          "liquid_xiranite_poly": "12"
+        },
+        "cost": "-50",
+        "icon": "CZoh2vwOX",
+        "flags": {}
+      },
+      "posX": "-64px",
+      "posY": "-896px",
+      "viewBox": "64 896 64 64"
+    },
+    {
+      "id": "i|liquid_sewage",
+      "name": "污水",
+      "text": "205/分",
+      "color": "#616161",
+      "stepId": "13",
+      "href": "data/aef/icons.webp",
+      "posX": "-896px",
+      "posY": "-192px",
+      "viewBox": "896 192 64 64"
+    },
+    {
+      "id": "r|copper_nugget",
+      "name": "赤铜块",
+      "text": "5.9 精炼炉",
+      "color": "#893a31",
+      "stepId": "14",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "copper_nugget",
+        "name": "赤铜块",
+        "category": "material",
+        "row": 5,
+        "time": "2",
+        "producers": [
+          "furnance_1"
+        ],
+        "in": {
+          "copper_ore": "1",
+          "liquid_water": "1"
+        },
+        "out": {
+          "copper_nugget": "1",
+          "liquid_sewage": "1"
+        },
+        "cost": "100",
+        "icon": "copper_nugget",
+        "locations": [
+          "jinlong"
+        ],
+        "flags": {}
+      },
+      "posX": "-768px",
+      "posY": "-64px",
+      "viewBox": "768 64 64 64"
+    },
+    {
+      "id": "s|copper_ore",
+      "name": "赤铜矿",
+      "text": "335/分",
+      "color": "#d32f2f",
+      "stepId": "33",
+      "href": "data/aef/icons.webp",
+      "posX": "-832px",
+      "posY": "-64px",
+      "viewBox": "832 64 64 64"
+    },
+    {
+      "id": "m|copper_ore-liquid_water",
+      "name": "赤铜矿",
+      "text": "25.5 水驱矿机",
+      "color": "#a18182",
+      "stepId": "33",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "copper_ore-liquid_water",
+        "name": "赤铜矿",
+        "category": "material",
+        "row": 5,
+        "time": "3",
+        "producers": [
+          "miner_4"
+        ],
+        "in": {
+          "__miner_water": "1"
+        },
+        "out": {
+          "copper_ore": "1"
+        },
+        "icon": "pSkp8UtzR",
+        "flags": {}
+      },
+      "posX": "-64px",
+      "posY": "-704px",
+      "viewBox": "64 704 64 64"
+    },
+    {
+      "id": "r|__miner_water",
+      "name": "清水",
+      "text": "8.5 水泵(水驱矿机)",
+      "color": "#5ae7f8",
+      "stepId": "34",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "__miner_water",
+        "name": "清水",
+        "category": "__internal",
+        "row": 999,
+        "time": "1",
+        "producers": [
+          "__miner_pump_1"
+        ],
+        "in": {},
+        "out": {
+          "__miner_water": "1"
+        },
+        "icon": "liquid_water",
+        "flags": {}
+      },
+      "posX": "-960px",
+      "posY": "-192px",
+      "viewBox": "960 192 64 64"
+    },
+    {
+      "id": "r|phase_trans_2-gas_xiranite",
+      "name": "息壤气(固气转化机)",
+      "text": "7.9 固气转化机",
+      "color": "#9dad9a",
+      "stepId": "37",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "phase_trans_2-gas_xiranite",
+        "name": "息壤气(固气转化机)",
+        "category": "material",
+        "row": 8,
+        "time": "2",
+        "producers": [
+          "phase_trans_2"
+        ],
+        "in": {
+          "xiranite_powder": "1",
+          "gas_xiranite": "0.2"
+        },
+        "out": {
+          "gas_xiranite": "1"
+        },
+        "icon": "eAPSNjYPO",
+        "flags": {}
+      },
+      "posX": "-320px",
+      "posY": "-768px",
+      "viewBox": "320 768 64 64"
+    },
+    {
+      "id": "s|xiranite_powder",
+      "name": "息壤",
+      "text": "3.9/分",
+      "color": "#d32f2f",
+      "stepId": "20",
+      "href": "data/aef/icons.webp",
+      "posX": "-128px",
+      "posY": "-384px",
+      "viewBox": "128 384 64 64"
+    },
+    {
+      "id": "r|xiranite_powder-carbon_mtl",
+      "name": "息壤(碳块)",
+      "text": "12 天有洪炉",
+      "color": "#357a90",
+      "stepId": "20",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "xiranite_powder-carbon_mtl",
+        "name": "息壤(碳块)",
+        "category": "material",
+        "row": 7,
+        "time": "2",
+        "producers": [
+          "xiranite_oven_1"
+        ],
+        "in": {
+          "carbon_mtl": "1",
+          "liquid_water": "1"
+        },
+        "out": {
+          "xiranite_powder": "1"
+        },
+        "icon": "tk28kQJ4M",
+        "flags": {}
+      },
+      "posX": "-768px",
+      "posY": "-960px",
+      "viewBox": "768 960 64 64"
+    },
+    {
+      "id": "r|carbon_mtl-plant_grass_2",
+      "name": "碳块(芽针)",
+      "text": "6 精炼炉",
+      "color": "#444748",
+      "stepId": "8",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "carbon_mtl-plant_grass_2",
+        "name": "碳块(芽针)",
+        "category": "material",
+        "row": 1,
+        "time": "2",
+        "producers": [
+          "furnance_1"
+        ],
+        "in": {
+          "plant_grass_2": "1"
+        },
+        "out": {
+          "carbon_mtl": "2"
+        },
+        "icon": "tF0KCVMNv",
+        "flags": {}
+      },
+      "posX": "-128px",
+      "posY": "-640px",
+      "viewBox": "128 640 64 64"
+    },
+    {
+      "id": "r|transfer_tundra_originium_enr_powder",
+      "name": "致密源石粉末",
+      "text": "1 超库存传输",
+      "color": "#75522c",
+      "stepId": "35",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "transfer_tundra_originium_enr_powder",
+        "name": "致密源石粉末",
+        "category": "__domain_transfer",
+        "row": 999,
+        "time": "3600",
+        "producers": [
+          "__domain_transfer"
+        ],
+        "in": {
+          "domain_key_tundra": "1"
+        },
+        "out": {
+          "originium_enr_powder": "1500"
+        },
+        "icon": "originium_enr_powder",
+        "flags": {}
+      },
+      "posX": "-256px",
+      "posY": "-256px",
+      "viewBox": "256 256 64 64"
+    },
+    {
+      "id": "i|domain_key_tundra",
+      "name": "超库存传输",
+      "text": "0.1/分",
+      "color": "#777570",
+      "stepId": "4",
+      "href": "data/aef/icons.webp",
+      "posX": "-192px",
+      "posY": "0px",
+      "viewBox": "192 0 64 64"
+    },
+    {
+      "id": "i|liquid_water",
+      "name": "清水",
+      "text": "758.7/分",
+      "color": "#5ae7f8",
+      "stepId": "5",
+      "href": "data/aef/icons.webp",
+      "posX": "-960px",
+      "posY": "-192px",
+      "viewBox": "960 192 64 64"
+    },
+    {
+      "id": "r|liquid_water",
+      "name": "清水",
+      "text": "12.5 水泵",
+      "color": "#5ae7f8",
+      "stepId": "5",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "liquid_water",
+        "name": "清水",
+        "category": "material",
+        "row": 8,
+        "time": "1",
+        "producers": [
+          "pump_1"
+        ],
+        "in": {},
+        "out": {
+          "liquid_water": "1"
+        },
+        "icon": "liquid_water",
+        "flags": {}
+      },
+      "posX": "-960px",
+      "posY": "-192px",
+      "viewBox": "960 192 64 64"
+    },
+    {
+      "id": "i|gas_xiranite",
+      "name": "息壤气",
+      "text": "385/分",
+      "color": "#aac2a1",
+      "stepId": "16",
+      "href": "data/aef/icons.webp",
+      "posX": "-704px",
+      "posY": "-128px",
+      "viewBox": "704 128 64 64"
+    },
+    {
+      "id": "m|gas_xiranite",
+      "name": "息壤气",
+      "text": "7.5 气体收集泵",
+      "color": "#aac2a1",
+      "stepId": "16",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "gas_xiranite",
+        "name": "息壤气",
+        "category": "material",
+        "row": 999,
+        "time": "3",
+        "producers": [
+          "gas_pump_1"
+        ],
+        "in": {},
+        "out": {
+          "gas_xiranite": "1"
+        },
+        "icon": "gas_xiranite",
+        "flags": {}
+      },
+      "posX": "-704px",
+      "posY": "-128px",
+      "viewBox": "704 128 64 64"
+    },
+    {
+      "id": "r|plant_grass_2",
+      "name": "芽针",
+      "text": "6 种植机",
+      "color": "#5e5c49",
+      "stepId": "7",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "plant_grass_2",
+        "name": "芽针",
+        "category": "material",
+        "row": 1,
+        "time": "2",
+        "producers": [
+          "planter_1"
+        ],
+        "in": {
+          "plant_grass_seed_2": "1",
+          "liquid_water": "1"
+        },
+        "out": {
+          "plant_grass_2": "2"
+        },
+        "icon": "plant_grass_2",
+        "locations": [
+          "jinlong"
+        ],
+        "flags": {}
+      },
+      "posX": "-704px",
+      "posY": "-256px",
+      "viewBox": "704 256 64 64"
+    },
+    {
+      "id": "r|plant_grass_seed_2",
+      "name": "芽针种子",
+      "text": "6 采种机",
+      "color": "#9e7f6b",
+      "stepId": "6",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "plant_grass_seed_2",
+        "name": "芽针种子",
+        "category": "material",
+        "row": 1,
+        "time": "2",
+        "producers": [
+          "seedcol_1"
+        ],
+        "in": {
+          "plant_grass_2": "1"
+        },
+        "out": {
+          "plant_grass_seed_2": "1"
+        },
+        "icon": "plant_grass_seed_2",
+        "flags": {}
+      },
+      "posX": "-960px",
+      "posY": "-256px",
+      "viewBox": "960 256 64 64"
+    },
+    {
+      "id": "r|plant_moss_3",
+      "name": "砂叶",
+      "text": "2.2 种植机",
+      "color": "#927529",
+      "stepId": "9",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "plant_moss_3",
+        "name": "砂叶",
+        "category": "material",
+        "row": 0,
+        "time": "2",
+        "producers": [
+          "planter_1"
+        ],
+        "in": {
+          "plant_moss_seed_3": "1"
+        },
+        "out": {
+          "plant_moss_3": "1"
+        },
+        "icon": "plant_moss_3",
+        "flags": {}
+      },
+      "posX": "-128px",
+      "posY": "-320px",
+      "viewBox": "128 320 64 64"
+    },
+    {
+      "id": "r|plant_moss_seed_3",
+      "name": "砂叶种子",
+      "text": "1.1 采种机",
+      "color": "#846911",
+      "stepId": "10",
+      "href": "data/aef/icons.webp",
+      "recipe": {
+        "id": "plant_moss_seed_3",
+        "name": "砂叶种子",
+        "category": "material",
+        "row": 0,
+        "time": "2",
+        "producers": [
+          "seedcol_1"
+        ],
+        "in": {
+          "plant_moss_3": "1"
+        },
+        "out": {
+          "plant_moss_seed_3": "2"
+        },
+        "icon": "plant_moss_seed_3",
+        "flags": {}
+      },
+      "posX": "-640px",
+      "posY": "-320px",
+      "viewBox": "640 320 64 64"
+    }
+  ],
+  "links": [
+    {
+      "source": "r|phase_trans_2-xiranite_enr_powder",
+      "target": "o|xiranite_enr_powder",
+      "name": "重息壤",
+      "text": "60/分",
+      "color": "#356339",
+      "value": 60
+    },
+    {
+      "source": "r|gas_xiranite_enr-gas_inert",
+      "target": "r|phase_trans_2-xiranite_enr_powder",
+      "name": "重息壤气",
+      "text": "150/分",
+      "color": "#b8ca8c",
+      "value": 15
+    },
+    {
+      "source": "r|copper_enr2_cmpt",
+      "target": "o|copper_enr2_cmpt",
+      "name": "灼铜零件",
+      "text": "1/分",
+      "color": "#ac7162",
+      "value": 1
+    },
+    {
+      "source": "r|phase_trans_2-copper_enr2",
+      "target": "r|copper_enr2_cmpt",
+      "name": "灼铜块",
+      "text": "5/分",
+      "color": "#e4a388",
+      "value": 5
+    },
+    {
+      "source": "r|gas_copper_enr2",
+      "target": "r|phase_trans_2-copper_enr2",
+      "name": "气态灼铜",
+      "text": "5/分",
+      "color": "#d7a78d",
+      "value": 0.5
+    },
+    {
+      "source": "r|gas_copper_enr-gas_inert",
+      "target": "r|gas_copper_enr2",
+      "name": "气态赫铜",
+      "text": "10/分",
+      "color": "#d9bdba",
+      "value": 1
+    },
+    {
+      "source": "r|phase_trans_2-gas_copper",
+      "target": "r|gas_copper_enr-gas_inert",
+      "name": "气态赤铜",
+      "text": "10/分",
+      "color": "#da9f94",
+      "value": 1
+    },
+    {
+      "source": "r|proc_battery_5",
+      "target": "o|proc_battery_5",
+      "name": "中容武陵电池",
+      "text": "6/分",
+      "color": "#5d6956",
+      "value": 6
+    },
+    {
+      "source": "r|xiranite_poly",
+      "target": "r|proc_battery_5",
+      "name": "壤晶",
+      "text": "30/分",
+      "color": "#39413e",
+      "value": 30
+    },
+    {
+      "source": "r|xiranite_poly",
+      "target": "i|liquid_sewage",
+      "name": "污水",
+      "text": "30/分",
+      "color": "#616161",
+      "value": 3
+    },
+    {
+      "source": "i|liquid_xiranite_poly",
+      "target": "r|xiranite_poly",
+      "name": "壤晶废液",
+      "text": "60/分",
+      "color": "#3b6541",
+      "value": 6
+    },
+    {
+      "source": "r|liquid_xiranite_poly",
+      "target": "i|liquid_xiranite_poly",
+      "name": "壤晶废液",
+      "text": "43.7/分",
+      "color": "#3b6541",
+      "value": 4.36986301369863
+    },
+    {
+      "source": "r|liquid_xiranite",
+      "target": "r|liquid_xiranite_poly",
+      "name": "液化息壤",
+      "text": "43.7/分",
+      "color": "#467867",
+      "value": 4.36986301369863
+    },
+    {
+      "source": "r|iron_powder",
+      "target": "r|xiranite_poly",
+      "name": "蓝铁粉末",
+      "text": "30/分",
+      "color": "#35526b",
+      "value": 30
+    },
+    {
+      "source": "r|iron_nugget-iron_ore",
+      "target": "r|iron_powder",
+      "name": "蓝铁块",
+      "text": "30/分",
+      "color": "#628095",
+      "value": 30
+    },
+    {
+      "source": "m|iron_ore",
+      "target": "r|iron_nugget-iron_ore",
+      "name": "蓝铁矿",
+      "text": "30/分",
+      "color": "#5a718d",
+      "value": 30
+    },
+    {
+      "source": "m|iron_ore",
+      "target": "s|iron_ore",
+      "name": "蓝铁矿",
+      "text": "90/分",
+      "color": "#5a718d",
+      "value": 90
+    },
+    {
+      "source": "i|originium_enr_powder",
+      "target": "r|proc_battery_5",
+      "name": "致密源石粉末",
+      "text": "120/分",
+      "color": "#75522c",
+      "value": 120
+    },
+    {
+      "source": "r|originium_enr_powder",
+      "target": "i|originium_enr_powder",
+      "name": "致密源石粉末",
+      "text": "95/分",
+      "color": "#75522c",
+      "value": 95
+    },
+    {
+      "source": "r|originium_powder",
+      "target": "r|originium_enr_powder",
+      "name": "源石粉末",
+      "text": "190/分",
+      "color": "#4f3c29",
+      "value": 190
+    },
+    {
+      "source": "m|originium_ore",
+      "target": "r|originium_powder",
+      "name": "源矿",
+      "text": "190/分",
+      "color": "#815d3e",
+      "value": 190
+    },
+    {
+      "source": "m|originium_ore",
+      "target": "s|originium_ore",
+      "name": "源矿",
+      "text": "350/分",
+      "color": "#815d3e",
+      "value": 350
+    },
+    {
+      "source": "r|plant_moss_powder_3",
+      "target": "r|originium_enr_powder",
+      "name": "砂叶粉末",
+      "text": "95/分",
+      "color": "#9e700a",
+      "value": 95
+    },
+    {
+      "source": "r|liquid_xiranite_poly-purifier",
+      "target": "i|liquid_xiranite_poly",
+      "name": "壤晶废液",
+      "text": "11/分",
+      "color": "#3b6541",
+      "value": 1.0924657534246576
+    },
+    {
+      "source": "r|liquid_xiranite_poly-purifier",
+      "target": "i|liquid_water",
+      "name": "清水",
+      "text": "11/分",
+      "color": "#5ae7f8",
+      "value": 1.0924657534246576
+    },
+    {
+      "source": "r|liquid_xiranite_poly",
+      "target": "r|liquid_xiranite_poly-purifier",
+      "name": "惰性壤晶废液",
+      "text": "43.7/分",
+      "color": "#245842",
+      "value": 4.36986301369863
+    },
+    {
+      "source": "r|filter_core",
+      "target": "r|gas_copper_enr-gas_inert",
+      "name": "分离芯",
+      "text": "5/分",
+      "color": "#737072",
+      "value": 5
+    },
+    {
+      "source": "r|filter_core",
+      "target": "r|gas_xiranite_enr-gas_inert",
+      "name": "分离芯",
+      "text": "150/分",
+      "color": "#737072",
+      "value": 150
+    },
+    {
+      "source": "r|copper_jar",
+      "target": "r|filter_core",
+      "name": "赤铜耐压罐",
+      "text": "77.5/分",
+      "color": "#826767",
+      "value": 77.5
+    },
+    {
+      "source": "m|gas_inert",
+      "target": "r|copper_jar",
+      "name": "惰气",
+      "text": "77.5/分",
+      "color": "#69a6b4",
+      "value": 7.75
+    },
+    {
+      "source": "m|gas_inert",
+      "target": "s|gas_inert",
+      "name": "惰气",
+      "text": "382.5/分",
+      "color": "#69a6b4",
+      "value": 38.25
+    },
+    {
+      "source": "r|sewage-treat-export",
+      "target": "i|liquid_xiranite_poly",
+      "name": "壤晶废液",
+      "text": "5.4/分",
+      "color": "#3b6541",
+      "value": 0.5376712328767124
+    },
+    {
+      "source": "i|liquid_sewage",
+      "target": "r|liquid_xiranite_poly",
+      "name": "污水",
+      "text": "43.7/分",
+      "color": "#616161",
+      "value": 4.36986301369863
+    },
+    {
+      "source": "i|liquid_sewage",
+      "target": "r|sewage-treat-export",
+      "name": "污水",
+      "text": "161.4/分",
+      "color": "#616161",
+      "value": 16.13013698630137
+    },
+    {
+      "source": "r|copper_nugget",
+      "target": "r|phase_trans_2-gas_copper",
+      "name": "赤铜块",
+      "text": "20/分",
+      "color": "#893a31",
+      "value": 20
+    },
+    {
+      "source": "r|copper_nugget",
+      "target": "r|copper_jar",
+      "name": "赤铜块",
+      "text": "155/分",
+      "color": "#893a31",
+      "value": 155
+    },
+    {
+      "source": "r|copper_nugget",
+      "target": "i|liquid_sewage",
+      "name": "污水",
+      "text": "175/分",
+      "color": "#616161",
+      "value": 17.5
+    },
+    {
+      "source": "m|copper_ore-liquid_water",
+      "target": "r|copper_nugget",
+      "name": "赤铜矿",
+      "text": "175/分",
+      "color": "#aa6962",
+      "value": 175
+    },
+    {
+      "source": "m|copper_ore-liquid_water",
+      "target": "s|copper_ore",
+      "name": "赤铜矿",
+      "text": "335/分",
+      "color": "#aa6962",
+      "value": 335
+    },
+    {
+      "source": "r|__miner_water",
+      "target": "m|copper_ore-liquid_water",
+      "name": "清水",
+      "text": "510/分",
+      "color": "#5ae7f8",
+      "value": 51
+    },
+    {
+      "source": "r|phase_trans_2-gas_xiranite",
+      "target": "i|gas_xiranite",
+      "name": "息壤气",
+      "text": "235/分",
+      "color": "#aac2a1",
+      "value": 23.5
+    },
+    {
+      "source": "r|xiranite_powder-carbon_mtl",
+      "target": "r|filter_core",
+      "name": "息壤",
+      "text": "77.5/分",
+      "color": "#305244",
+      "value": 77.5
+    },
+    {
+      "source": "r|xiranite_powder-carbon_mtl",
+      "target": "r|liquid_xiranite",
+      "name": "息壤",
+      "text": "43.7/分",
+      "color": "#305244",
+      "value": 43.6986301369863
+    },
+    {
+      "source": "r|xiranite_powder-carbon_mtl",
+      "target": "r|phase_trans_2-gas_xiranite",
+      "name": "息壤",
+      "text": "235/分",
+      "color": "#305244",
+      "value": 235
+    },
+    {
+      "source": "r|xiranite_powder-carbon_mtl",
+      "target": "s|xiranite_powder",
+      "name": "息壤",
+      "text": "3.9/分",
+      "color": "#305244",
+      "value": 3.8013698630136985
+    },
+    {
+      "source": "r|carbon_mtl-plant_grass_2",
+      "target": "r|xiranite_powder-carbon_mtl",
+      "name": "碳块",
+      "text": "360/分",
+      "color": "#3f4049",
+      "value": 360
+    },
+    {
+      "source": "r|transfer_tundra_originium_enr_powder",
+      "target": "i|originium_enr_powder",
+      "name": "致密源石粉末",
+      "text": "25/分",
+      "color": "#75522c",
+      "value": 25
+    },
+    {
+      "source": "i|domain_key_tundra",
+      "target": "r|transfer_tundra_originium_enr_powder",
+      "name": "超库存传输",
+      "text": "0.1/分",
+      "color": "#777570",
+      "value": 0.016666666666666666
+    },
+    {
+      "source": "i|liquid_water",
+      "target": "r|plant_grass_2",
+      "name": "清水",
+      "text": "180/分",
+      "color": "#5ae7f8",
+      "value": 18
+    },
+    {
+      "source": "i|liquid_water",
+      "target": "r|copper_nugget",
+      "name": "清水",
+      "text": "175/分",
+      "color": "#5ae7f8",
+      "value": 17.5
+    },
+    {
+      "source": "i|liquid_water",
+      "target": "r|xiranite_powder-carbon_mtl",
+      "name": "清水",
+      "text": "360/分",
+      "color": "#5ae7f8",
+      "value": 36
+    },
+    {
+      "source": "i|liquid_water",
+      "target": "r|liquid_xiranite",
+      "name": "清水",
+      "text": "43.7/分",
+      "color": "#5ae7f8",
+      "value": 4.36986301369863
+    },
+    {
+      "source": "r|liquid_water",
+      "target": "i|liquid_water",
+      "name": "清水",
+      "text": "747.8/分",
+      "color": "#5ae7f8",
+      "value": 74.77739726027397
+    },
+    {
+      "source": "i|gas_xiranite",
+      "target": "r|phase_trans_2-gas_copper",
+      "name": "息壤气",
+      "text": "2/分",
+      "color": "#aac2a1",
+      "value": 0.2
+    },
+    {
+      "source": "i|gas_xiranite",
+      "target": "r|phase_trans_2-xiranite_enr_powder",
+      "name": "息壤气",
+      "text": "30/分",
+      "color": "#aac2a1",
+      "value": 3
+    },
+    {
+      "source": "i|gas_xiranite",
+      "target": "r|gas_xiranite_enr-gas_inert",
+      "name": "息壤气",
+      "text": "300/分",
+      "color": "#aac2a1",
+      "value": 30
+    },
+    {
+      "source": "i|gas_xiranite",
+      "target": "r|phase_trans_2-copper_enr2",
+      "name": "息壤气",
+      "text": "1/分",
+      "color": "#aac2a1",
+      "value": 0.1
+    },
+    {
+      "source": "i|gas_xiranite",
+      "target": "r|gas_copper_enr2",
+      "name": "息壤气",
+      "text": "5/分",
+      "color": "#aac2a1",
+      "value": 0.5
+    },
+    {
+      "source": "i|gas_xiranite",
+      "target": "r|phase_trans_2-gas_xiranite",
+      "name": "息壤气",
+      "text": "47/分",
+      "color": "#aac2a1",
+      "value": 4.7
+    },
+    {
+      "source": "m|gas_xiranite",
+      "target": "i|gas_xiranite",
+      "name": "息壤气",
+      "text": "150/分",
+      "color": "#aac2a1",
+      "value": 15
+    },
+    {
+      "source": "r|plant_grass_2",
+      "target": "r|plant_grass_seed_2",
+      "name": "芽针",
+      "text": "180/分",
+      "color": "#5e5c49",
+      "value": 180
+    },
+    {
+      "source": "r|plant_grass_2",
+      "target": "r|carbon_mtl-plant_grass_2",
+      "name": "芽针",
+      "text": "180/分",
+      "color": "#5e5c49",
+      "value": 180
+    },
+    {
+      "source": "r|plant_grass_seed_2",
+      "target": "r|plant_grass_2",
+      "name": "芽针种子",
+      "text": "180/分",
+      "color": "#9e7f6b",
+      "value": 180
+    },
+    {
+      "source": "r|plant_moss_3",
+      "target": "r|plant_moss_powder_3",
+      "name": "砂叶",
+      "text": "31.7/分",
+      "color": "#927529",
+      "value": 31.666666666666668
+    },
+    {
+      "source": "r|plant_moss_3",
+      "target": "r|plant_moss_seed_3",
+      "name": "砂叶",
+      "text": "31.7/分",
+      "color": "#927529",
+      "value": 31.666666666666668
+    },
+    {
+      "source": "r|plant_moss_seed_3",
+      "target": "r|plant_moss_3",
+      "name": "砂叶种子",
+      "text": "63.4/分",
+      "color": "#846911",
+      "value": 63.333333333333336
+    }
+  ]
+}
